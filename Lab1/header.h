@@ -13,7 +13,7 @@ using namespace std;
 
 
 
-double fibonnaci(double (*fct)(double), double a, double b, double tol);
+double fibonacci(double (*fct)(double), double a, double b, double tol);
 double golden(double (*fct)(double), double a, double b, double tol);
 double falsi(double (*fct)(double), double a, double b, double tol);
 double newton(double (*fct)(double), double (*fct_deriv)(double), double x, double tol);
